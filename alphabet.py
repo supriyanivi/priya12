@@ -1,9 +1,9 @@
 print("Enter '0' for exit.");
-character = input("Enter any character: ");
-if character == '0':
+ch = input("Enter any character: ");
+if ch == '0':
     exit();
 else:
-    if((character>='a' and character<='z') or (character>='A' and character<='Z')):
-    	print(character, "is an alphabet.");
+    if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
+    	print(ch, "is an alphabet.");
     else:
-    	print(character, "is not an alphabet.");
+    	print(ch, "is not an alphabet.");
